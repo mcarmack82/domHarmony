@@ -58,13 +58,28 @@ data.appendChild(newPro2);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
+var nameWendy = document.getElementsByClassName('firstName');
+nameWendy[0].innerHTML = 'Wendy';
+
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
+
+var ageWendy = document.getElementsByClassName('otherAge');
+ageWendy[0].innerHTML = '48';
 
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
 
+var statusWendy = document.getElementsByClassName('status');
+statusWendy[0].innerHTML = 'Single Mother';
+
 //13. In the div id matches section, target the second div element with the class name of firstName and change Name to Peko Chan.
 
+var firstNameSecond = document.getElementsByClassName('firstName');
+firstNameSecond[1].innerHTML = 'Peko Chan';
+
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
+
+var otherAgeSecond = document.getElementsByClassName('otherAge');
+otherAgeSecond[1].innerHTML = '68';
 
  //Final Boss Create your own profile into the page:
  //change image to match your profile
